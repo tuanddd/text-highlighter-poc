@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Highlighter</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <p>
+        Lorem
+        <em>ipsum</em> dolor, sit <span>amet</span> consectetur adipisicing
+        elit. Facilis,
+        <span
+          >at, ullam, obcaecati quo maxime quos officia non doloremque
+          <span style="display: none;">hidden</span></span
+        >
+        exercitationem distinctio tempore repellat.
+        <span>Unde repellat</span> harum neque sed quisquam temporibus esse!
+      </p>
+    </div>
+    <br />
+    <button onClick="getText()">Get text</button>
+    <br />
+    <p>👇 Copy alert's content and paste it here, then enter</p>
+    <form id="form">
+      <input type="text" />
+    </form>
+    <script src="src/index.js"></script>
+  </body>
+</html>
